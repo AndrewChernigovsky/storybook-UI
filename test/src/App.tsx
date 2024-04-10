@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import { MyButton } from 'ui-kit';
+import { MyButton, MyInput } from 'ui-kit-andrey-new-new';
 
 function App() {
   return (
     <div className="App">
-      <MyButton color={'green'} big>Button</MyButton>
+      <MyButton color={'green'}>Button</MyButton>
+      <MyInput placeholder='enter your text' label='say hi' color='red' />
     </div>
   );
 }
